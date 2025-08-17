@@ -168,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00f8b837450f6ddd",
+  "active": "99379e6f40f2a66f",
   "lastOpenFiles": [
+    "Gemfile~",
     "_config.local.yml",
     "Gemfile.lock",
     "vendor/bundle/ruby/3.3.0/specifications/github-pages-232.gemspec",
@@ -180,7 +181,6 @@
     "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages/dependencies.rb",
     "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages.rb",
     "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages",
-    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/bin/github-pages",
     "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/nav-bg.gif",
     "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/hr.gif",
     "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/bullet.png",
