@@ -1,0 +1,90 @@
+/* Brand palette */
+:root {
+  --navy: #0f1c2e;  /* deep navy */
+  --teal: #2ab3a6;  /* brand teal */
+  --azure: #1e90ff; /* azure accent */
+  --ink: #e5eefc;   /* light ink for dark bg */
+  --muted: #a8b3c7;
+  --card: #0b1626;
+  --line: #203049;
+}
+
+/* Minima base tweaks */
+html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+body { background: var(--navy); color: var(--ink); }
+
+.wrapper { max-width: 1080px; }
+
+/* Links */
+a { color: var(--teal); }
+a:hover { color: var(--azure); }
+
+/* Header */
+.site-header {
+  background: rgba(10, 18, 34, 0.8);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: saturate(180%) blur(6px);
+}
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
+.logo { display: inline-flex; gap: 10px; align-items: center; color: var(--ink); font-weight: 700; }
+.logo svg { width: 28px; height: 28px; }
+.logo svg circle { fill: var(--teal); }
+.logo svg path { stroke: #8fb7ff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+
+.site-nav .page-link { margin-left: 16px; color: var(--ink); }
+.site-nav .page-link:hover { color: var(--azure); }
+.site-nav .cta {
+  margin-left: 16px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--teal);
+  color: #041021;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+.site-nav .cta:hover { background: #27a399; }
+
+/* Footer */
+.site-footer {
+  background: #0b1423;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+/* Cards/sections */
+.section { padding: 36px 0; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.25);
+  padding: 18px;
+}
+.badge {
+  display: inline-flex; gap: 8px; align-items: center;
+  padding: 6px 10px; border-radius: 999px;
+  background: #0f2038; border: 1px solid var(--line); color: var(--muted);
+  font-weight: 600; font-size: 13px;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--azure); color: #041021; padding: 10px 14px; border-radius: 10px; font-weight: 700;
+}
+.btn-outline {
+  background: transparent; border: 1px solid var(--line); color: var(--ink); padding: 10px 14px; border-radius: 10px; font-weight: 700;
+}
+hr { border: 0; border-top: 1px solid var(--line); }
+
+/* Forms */
+input, select, textarea {
+  width: 100%; padding: 10px; background: #0a1a2f; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 10px;
+}
+label { color: var(--muted); font-weight: 600; font-size: 14px; }
+
+/* Simple responsive grid helpers */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+@media (max-width: 900px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+}

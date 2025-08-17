@@ -1,52 +1,29 @@
 title: "Myriad Insights"
-email: "gscott@myriadinsights.net"
-description: "Cybersecurity clarity and risk reduction for small businesses and nonprofits in Kansas City."
-url: "https://myriadsecurity.github.io"
-baseurl: ""
-permalink: /:categories/:title/
-timezone: America/Chicago
+description: "Enterprise Security, Built for Small Business"
+url: "https://myriadsecurity.github.io"   # change to your custom domain later
+theme: minima
 
-# Use the Feeling Responsive theme via remote_theme
-remote_theme: "Phlow/feeling-responsive"
-
-# Optional plugins supported by GitHub Pages
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Theme options
-author:
-  name: "Myriad Insights, LLC"
-  email: "gscott@myriadinsights.net"
-  github: "myriadsecurity"
-
-logo: "/assets/img/Logo_v1.png"
-
-# Social (shows in footer/header depending on theme)
-social:
-  - title: "GitHub"
-    url: "https://github.com/myriadsecurity"
-  - title: "LinkedIn"
-    url: "https://www.linkedin.com/in/geoffreyascott/"
-
-# Default front matter
-defaults:
-  - scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-      show_meta: false
-      breadcrumb: true
+# Minima dark look
+minima:
+  skin: dark
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-exclude:
-  - README.md
-  - LICENSE
-  - "*.zip"
+# Show pages in nav
+header_pages:
+  - index.md
+  - services.md
+  - contact.md
+
+# Social / metadata
+author:
+  name: "Myriad Insights"
+email: "gscott@myriadinsights.net"
+
+# Plugins that GitHub Pages supports
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
