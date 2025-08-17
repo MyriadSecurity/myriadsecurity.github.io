@@ -5,7 +5,7 @@ gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.8"   # needed for local `jekyll serve` on Ruby 3
 
 # Remote theme
-gem "jekyll-remote-theme"
+gem "jekyll-remote-theme", "~>0.4.3"
 
 # Common plugins GitHub Pages normally enables
 gem "jekyll-feed"
