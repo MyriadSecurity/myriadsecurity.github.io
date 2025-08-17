@@ -1,0 +1,9 @@
+---
+# only front matter so Jekyll processes SCSS
+---
+
+@import "minimal-mistakes/skins/myriad";
+@import "minimal-mistakes"; // theme
+// minor component tweaks
+.btn--primary { background: $primary-color; border-color: $primary-color; }
+.page__hero--overlay { background: linear-gradient(180deg, rgba(15,28,46,.85), rgba(15,28,46,.92)); }

@@ -1,0 +1,28 @@
+/* Myriad Insights Custom Skin */
+$background-color: #0f1c2e !default;   // dark navy
+$text-color: #eef2f6 !default;         // light gray
+$muted-text-color: #a0aec0 !default;
+$link-color: #2ab3a6 !default;         // teal
+$primary-color: #2ab3a6 !default;
+$border-color: #1c2738 !default;
+$btn-primary-color: #fff !default;
+$btn-primary-bg: #2ab3a6 !default;
+$btn-primary-border: #2ab3a6 !default;
+
+@import "minimal-mistakes";   // pull in core theme
+
+/* Dark footer override */
+.page__footer {
+  background-color: #0f1c2e;   // deep navy
+  color: #eef2f6;              // light text
+  border-top: 1px solid #1c2738;
+}
+
+.page__footer a {
+  color: #2ab3a6;              // teal links
+}
+
+.page__footer a:hover {
+  color: #38cfc1;              // lighter teal on hover
+}
+

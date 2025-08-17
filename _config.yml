@@ -1,29 +1,35 @@
 title: "Myriad Insights"
-description: "Enterprise Security, Built for Small Business"
-url: "https://myriadsecurity.github.io"   # change to your custom domain later
-theme: minima
+description: "Enterprise Security, Built for Small Business."
+url: "https://myriadsecurity.github.io"   # change to your custom domain when ready
+logo: /assets/images/logo.svg
 
-# Minima dark look
-minima:
-  skin: dark
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "myriad"   # custom skin below
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Build settings
+# Navigation
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+      author_profile: false
+      toc: false
+      classes: wide
+
+# Build
 markdown: kramdown
-kramdown:
-  input: GFM
+permalink: pretty
+include: [".well-known"]
+exclude: ["README.md","node_modules","vendor","tmp",".bundle","Gemfile.lock"]
 
-# Show pages in nav
-header_pages:
-  - index.md
-  - services.md
-  - contact.md
-
-# Social / metadata
+# Social/SEO
 author:
   name: "Myriad Insights"
-email: "gscott@myriadinsights.net"
+  email: "gscott@myriadinsights.net"
 
-# Plugins that GitHub Pages supports
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+# Footer text
+footer:
+  links: []

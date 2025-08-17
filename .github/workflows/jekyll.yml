@@ -1,8 +1,8 @@
-name: Build and Deploy Jekyll with Dart Sass
+name: Build & Deploy (Jekyll 4)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -23,10 +23,11 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - run: bundle install --path vendor/bundle
       - run: bundle exec jekyll build --trace
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -36,4 +37,3 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-
