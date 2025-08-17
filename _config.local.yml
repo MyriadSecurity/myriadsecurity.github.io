@@ -1,0 +1,7 @@
+exclude:
+  - vendor/
+  - vendor/**/*
+  - vendor/bundle/
+  - vendor/bundle/**/*
+  - .jekyll-cache/
+  - .bundle/

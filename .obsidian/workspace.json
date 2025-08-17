@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "ff202461c3e8b471",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4ef2f9f003ad0c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00f8b837450f6ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ad666ebe92b6526",
+    "type": "split",
+    "children": [
+      {
+        "id": "9387b6f3636c4352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99379e6f40f2a66f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b3499056bc3ad771",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ccd8c2d4eb6d5a0e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "361bd6e2f3578564",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c5cb54bcb9ec7ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62ee0ad745a65b9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "88d48b4bbaacbd08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "9208d49a2fb3a892",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c818fca32f7dcc18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "00f8b837450f6ddd",
+  "lastOpenFiles": [
+    "_config.local.yml",
+    "Gemfile.lock",
+    "vendor/bundle/ruby/3.3.0/specifications/github-pages-232.gemspec",
+    "vendor/bundle/ruby/3.3.0/bin/github-pages",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages/version.rb",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages/plugins.rb",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages/configuration.rb",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages/dependencies.rb",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages.rb",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/lib/github-pages",
+    "vendor/bundle/ruby/3.3.0/gems/github-pages-232/bin/github-pages",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/nav-bg.gif",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/hr.gif",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/images/bullet.png",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-SemiboldItalic-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-Semibold-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-Regular-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-LightItalic-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-Light-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-Italic-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/assets/fonts/OpenSans-BoldItalic-webfont.svg",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-midnight-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-minimal-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/minima-2.5.1/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-time-machine-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-tactile-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-slate-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-primer-0.6.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-primer-0.6.0/LICENSE.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-modernist-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-leap-day-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-merlot-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-architect-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-hacker-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-dinky-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-theme-cayman-0.2.0/README.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_posts/2015-01-18-jekyll-last-modified-at.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_posts/2014-05-11-exclude-this-post.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_posts/2014-03-04-march-the-fourth.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_posts/2014-03-02-march-the-second.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_posts/2013-12-12-dec-the-second.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_my_collection/this-has-non-standard-chars.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_my_collection/custom_permalink_2.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/_my_collection/custom_permalink.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/spec/fixtures/404.md",
+    "vendor/bundle/ruby/3.3.0/gems/jekyll-sitemap-1.4.0/README.md"
+  ]
+}

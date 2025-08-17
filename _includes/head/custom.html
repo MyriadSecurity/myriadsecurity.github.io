@@ -1,0 +1,29 @@
+<style>
+/* Brand palette overrides */
+:root {
+  --brand-dark: #28364a;  /* Dark Grey Blue */
+  --brand-teal: #1cabb0;  /* Tropical Teal */
+  --brand-azure: #07638b; /* Vivid Azure */
+  --brand-light: #EAEAEA; /* Light Grey */
+}
+
+a, a:visited { color: var(--brand-azure); }
+a:hover, a:focus { color: var(--brand-teal); }
+
+.button, .button.radius, button, input[type="submit"] {
+  background: var(--brand-teal);
+  border-color: var(--brand-teal);
+}
+.button:hover, button:hover, input[type="submit"]:hover {
+  background: var(--brand-azure);
+  border-color: var(--brand-azure);
+}
+
+h1, h2, h3, h4 { color: var(--brand-dark); }
+
+.top-bar-section li a:not(.button) { color: var(--brand-light); }
+.site-title a { color: var(--brand-light) !important; }
+
+/* Simple hero tweak for the frontpage */
+#masthead { background-color: var(--brand-dark); }
+</style>
