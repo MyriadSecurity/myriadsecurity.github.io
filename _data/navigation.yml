@@ -1,7 +1,1 @@
-main:
-  - title: "Services"
-    url: /#services
-  - title: "Contact"
-    url: /#contact
-  - title: "Book a Call"
-    url: https://calendly.com/your-calendly/intro-call
+main: []

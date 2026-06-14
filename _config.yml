@@ -1,5 +1,5 @@
 title: "Myriad Insights"
-description: "Enterprise Security, Built for Small Business."
+description: "Site under construction."
 url: "https://myriadsecurity.github.io"   # change to your custom domain when ready
 logo: /assets/images/logo.svg
 
@@ -23,12 +23,11 @@ defaults:
 markdown: kramdown
 permalink: pretty
 include: [".well-known"]
-exclude: ["README.md","node_modules","vendor","tmp",".bundle","Gemfile.lock"]
+exclude: ["README.md","node_modules","vendor","tmp",".bundle","Gemfile.lock","_posts"]
 
 # Social/SEO
 author:
   name: "Myriad Insights"
-  email: "gscott@myriadinsights.net"
 
 # Footer text
 footer:
